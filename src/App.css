@@ -1,0 +1,205 @@
+.bgimage {
+  height:100vh;
+  background: url('./images/home.jpg');
+  background-size:cover;
+  position:relative;
+}
+
+.navbar a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  display: block;
+  padding-left:12%; 
+  padding-right: 10%;
+  padding-top: 10px;
+  
+}
+
+.navbar a:hover {
+  font-weight: bold;
+}
+
+
+
+.hero_title {
+  font-size: 450%;
+  
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:rgb(214, 212, 212);
+  opacity: 0.4;
+}
+
+
+#myworkouts{
+  padding-top: 5%;
+  color: aliceblue;
+  
+}
+
+body {
+  background-color: #242222;
+}
+
+.App {
+  text-align: center;
+  color: aliceblue;
+}
+
+.searchlist .searchcard .deletebtn {
+  display: none;
+}
+
+.myexercises .searchcard .addbtn {
+  display: none;
+}
+
+.Exercise{
+  padding-top: 5%;
+  color: aliceblue;
+  
+
+}
+
+.Demo{
+  padding-top: 20px;
+  color: aliceblue;
+  text-decoration: underline;
+}
+
+.searchlist{
+  color: aliceblue;
+  overflow-y: scroll;
+  max-height: 300px;
+  background-color: #053da3;
+  width: 650px;
+  margin:auto;
+  border-radius: 25px;
+  margin-top: 10px;
+  font-size: 10pt;
+}
+
+.searchlist::-webkit-scrollbar{
+  display: none;
+}
+
+.title {
+font-size: 35px;
+font-weight: bold;
+opacity: 0.65;
+margin-top: -30px;
+}
+
+.Exercise {
+  height:100vh;
+  background: url('./images/workout.jpg');
+  background-size:cover;
+  position:relative;
+}
+
+.bgimage2{
+  height:100vh;
+  background: url('./images/myworkout.jpg');
+  background-size:cover;
+  position:relative;
+}
+
+.searchcard{
+  list-style: none;
+}
+
+.searchcard:hover{
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.searchNavBar a{
+  text-decoration: none;
+  color:aliceblue;
+  margin: 0px 10px 0px 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.searchNavBar a:hover{
+  font-weight: 1000;
+
+}
+
+.myexercises {
+  background-color: rgb(226, 166, 12);
+  width: 650px;
+  margin:auto;
+  border-radius: 25px;
+  margin-top: 15px;
+  overflow-y: scroll;
+  max-height: 400px;
+  font-size: 10pt;
+}
+
+.myexercises::-webkit-scrollbar{
+  display: none;
+}
+
+.text-center {
+font-size: 35px;
+font-weight: bold;
+margin-top: -30px;
+}
+
+.addbtn{
+  margin: 5px 5px 5px 5px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: rgb(4, 29, 112);
+  color: aliceblue;
+  border-color: rgb(4, 29, 112);
+}
+
+.deletebtn{
+  margin: 5px 5px 5px 5px;
+  margin-left: 10px;
+  border-radius: 10px;
+  background-color: darkgoldenrod;
+  color: aliceblue;
+  border-color: darkgoldenrod;
+}
+
+.results{
+  margin-top: 10px;
+  text-decoration: underline;
+  font-size: 22px;
+}
+
+.gif{
+  border-radius: 25px;
+  max-height: 300px;
+  max-width: 300px;
+}
+.bar{
+border-radius: 9px;
+font-size: 10pt;
+}
+
+.searchbtn{
+  border-radius: 9px;
+  margin-left: 5px;
+  font-size: 10pt;
+}
+
+.directions{
+  font-size: 10pt;;
+}
+
+.Demo h3{
+  font-size: 22px;
+}
